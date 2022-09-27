@@ -49,15 +49,16 @@ liste("button").forEach((element) => {
 
       default:
         cur_calcul += element.firstChild.innerHTML.toLowerCase();
-       
+
         break;
     }
-    if (prev_calcul.length > 0)
-      screen.innerHTML = `<p style="font-size: 15px">  ${prev_calcul}</p>\n <p>${cur_calcul} </p>`;
-    else 
-     {
+    if (prev_calcul.length > 0) {
+      screen.style = "";
+      screen.innerHTML = `<p>  ${prev_calcul}</p>\n <p>${cur_calcul} </p>`;
+    } else {
+      screen.style.flexDirection = "unset";
+      screen.style.alignItems = "center";
       screen.firstChild.innerHTML = cur_calcul;
-      console.log(cur_calcul);
-     }
+    }
   });
 });

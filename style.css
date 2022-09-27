@@ -1,10 +1,7 @@
 body{
-  background-color: #658ef7;
+  background-color: #214cb8;
 }
 
-section{
-  background-color: white;
-}
 
 .holder {
   display: grid;
@@ -40,6 +37,10 @@ section{
 
 .screen {
   grid-area: v;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: end;
   background-color: black;
 }
 .screen p {
@@ -51,95 +52,84 @@ section{
   
 }
 
+button{
+background-color: #b4ddfa;
+}
+
+button:hover{
+  background-color: #8fc9f3;
+  }
+
 .ac {
   grid-area: ac;
-  background-color: #b9cad6;
+  
 }
 
 .del {
   grid-area: del;
-  background-color: #b9cad6;
 }
 
 .div {
   grid-area: div;
-  background-color: #b9cad6;
 }
 
 .multi {
   grid-area: multi;
-  background-color: #b9cad6;
 }
 
 .minus {
   grid-area: minus;
-  background-color: #b9cad6;
 }
 
 .plus {
   grid-area: plus;
-  background-color: #b9cad6;
 }
 
 .equal {
   grid-area: equal;
-  background-color: #b9cad6;
 }
 
 .point {
   grid-area: point;
-  background-color: #b9cad6;
 }
 
 
 .one {
   grid-area: one;
-  background-color: #b9cad6;
 }
 
 .two {
   grid-area: two;
-  background-color: #b9cad6;
 }
 
 .three {
   grid-area: three;
-  background-color: #b9cad6;
 }
 
 .four {
   grid-area: four;
-  background-color: #b9cad6;
 }
 
 .five {
   grid-area: five;
-  background-color: #b9cad6;
 }
 
 .six {
   grid-area: six;
-  background-color: #b9cad6;
 }
 
 .seven {
   grid-area: seven;
-  background-color: #b9cad6;
 }
 
 .eight {
   grid-area: eight;
-  background-color: #b9cad6;
 }
 
 .nine {
   grid-area: nine;
-  background-color: #b9cad6;
 }
-
-
 
 .zero {
   grid-area: zero;
-  background-color: #b9cad6;
 }
